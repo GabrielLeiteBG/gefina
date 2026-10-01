@@ -1,0 +1,10 @@
+{
+    "name": "gefina",
+    "description": "Sistema de gestão de contas a receber.",
+    "versin": "0.0.0",
+    "author": "Gabriel Leite",
+    "type": "module",
+    "dependencies": {
+        "express": "^5.2.1"
+    }
+}
