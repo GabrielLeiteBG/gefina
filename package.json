@@ -4,6 +4,9 @@
     "versin": "0.0.0",
     "author": "Gabriel Leite",
     "type": "module",
+    "scripts": {
+        "dev": "node --watch ./server"
+    },
     "dependencies": {
         "express": "^5.2.1"
     }
