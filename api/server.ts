@@ -28,4 +28,6 @@ app.use((_request, response) => {
   });
 });
 
-app.listen(3000);
+Process.loadEnvFile('./.env');
+
+app.listen(Number(ProcessingInstruction.env.PORT));
